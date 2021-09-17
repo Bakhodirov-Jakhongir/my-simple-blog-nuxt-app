@@ -1,7 +1,9 @@
 <template>
-  <Tutorial/>
+  <nuxt-link to="users">Users</nuxt-link>
 </template>
 
 <script>
-export default {}
+export default {
+  layout: 'blog'
+}
 </script>
